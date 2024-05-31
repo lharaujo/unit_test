@@ -4,7 +4,7 @@ from function import total
 """ running tests """
 
 # Basic operation check:
-print(total([1, 2 ,3]) == 6)
+print(total([1, 2, 3]) == 6)
 
 # Verify that the sum works with a negative and a positive number:
 print(total([1, -1]) == 0)
@@ -16,4 +16,4 @@ print(total([-1, -1]) == -2)
 print(total([1]) == 1)
 
 # Verify that the empty list returns 0:
-print(total([]) == 1)
+print(total([]) == 0)

@@ -5,12 +5,12 @@ from function import total
 def test_total():
 
     """ running tests """
-    a = total([1, 2, 3]) == 6
-    b = total([1, -1]) == 0
-    c = total([-1, -1]) == -2
-    d = total([1]) == 1
-    e = total([]) == 0
-    return (a, b, c, d, e)
+    assert total([1, 2, 3]) == 6
 
+    assert total([1, -1]) == 0
 
-print(test_total())
+    assert total([-1, -1]) == -2
+
+    assert total([1]) == 1
+
+    assert total([]) == 0

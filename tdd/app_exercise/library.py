@@ -1,8 +1,8 @@
-"""For this exercise, you'll need to create a library object comprising 5 methods: 
-    - addbook, which will take the title and author as parameters. 
-    - deletebook which will take the title of a book as parameter (deletion only possible on the title). 
-    - listbook** returns a list of books currently added. 
-    - searchbookauthor** will return books by author only. 
+"""For this exercise, you'll need to create a library object comprising 5 methods:
+    - addbook, which will take the title and author as parameters.
+    - deletebook which will take the title of a book as parameter (deletion only possible on the title).
+    - listbook** returns a list of books currently added.
+    - searchbookauthor** will return books by author only.
     - generationstat** returns the number of books and a set of unique authors.
     """
 
@@ -37,7 +37,3 @@ class Library(Book):
             'total_books': total_books,
             'unique_authors': unique_authors,
         }
-
-lib = Library()
-book = Book("The Lord of the Rings", "J.R.R. Tolkien")
-print(book)
